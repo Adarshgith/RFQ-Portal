@@ -18,6 +18,8 @@
       }
     ],
     "paths": {
+      "@/context/*": ["./src/app/context/*"],
+      "@/lib/*": ["./src/lib/*"],
       "@/*": ["./src/*"]
     }
   },
