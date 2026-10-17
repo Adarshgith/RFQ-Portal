@@ -207,7 +207,7 @@ export default function SubmitQuote({ params }: { params: { id: string } }) {
               type="number"
               value={deliveryDays}
               onChange={(e) => setDeliveryDays(e.target.value)}
-              className="w-full border rounded-lg px-3 py-2 text-sm text-gray-900"
+              className="w-full border rounded-lg px-3 py-2 text-sm text-black"
               placeholder="e.g. 7"
               required
             />
@@ -221,7 +221,7 @@ export default function SubmitQuote({ params }: { params: { id: string } }) {
             <textarea
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              className="w-full border rounded-lg px-3 py-2 text-sm text-gray-900 h-24"
+              className="w-full border rounded-lg px-3 py-2 text-sm text-black h-24"
               placeholder="Any additional notes..."
             />
           </div>
@@ -235,7 +235,7 @@ export default function SubmitQuote({ params }: { params: { id: string } }) {
               type="file"
               accept=".pdf,.xlsx,.xls"
               onChange={handleFileUpload}
-              className="w-full border rounded-lg px-3 py-2 text-sm text-gray-900"
+              className="w-full border rounded-lg px-3 py-2 text-sm text-black"
             />
             {uploading && (
               <p className="text-sm text-blue-600 mt-1">Uploading...</p>
