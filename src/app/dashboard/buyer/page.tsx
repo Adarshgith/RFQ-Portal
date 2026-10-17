@@ -88,7 +88,7 @@ export default function BuyerDashboard() {
                       'bg-gray-100 text-gray-700'
                     }`}>{rfq.status}</span>
                   </td>
-                  <td className="px-4 py-3 text-center">{rfq._count?.quotes || 0}</td>
+                  <td className="px-4 py-3 text-center text-black">{rfq._count?.quotes || 0}</td>
                   <td className="px-4 py-3">
                     <Link href={`/rfqs/${rfq.id}`} className="text-blue-600 hover:underline text-sm">View</Link>
                   </td>

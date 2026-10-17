@@ -51,7 +51,7 @@ export default function VendorDashboard() {
           <input
             type="text" placeholder="Search by keyword..."
             value={search} onChange={e => setSearch(e.target.value)}
-            className="border rounded-lg px-3 py-2 text-sm flex-1 min-w-[150px]"
+            className="border rounded-lg text-black px-3 py-2 text-sm flex-1 min-w-[150px]"
           />
           <input
             type="text" placeholder="Category..."

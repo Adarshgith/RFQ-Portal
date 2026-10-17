@@ -208,7 +208,7 @@ export default function CreateRFQ() {
                 type="datetime-local"
                 value={form.deadline}
                 onChange={handleChange}
-                className="w-full border rounded-lg px-3 py-2 text-sm"
+                className="w-full border rounded-lg px-3 py-2 text-sm text-black"
               />
             </div>
 
@@ -221,7 +221,7 @@ export default function CreateRFQ() {
                 type="file"
                 accept=".pdf,.xlsx,.xls"
                 onChange={handleFileUpload}
-                className="w-full border rounded-lg px-3 py-2 text-sm text-gray-900"
+                className="w-full border rounded-lg px-3 py-2 text-sm text-black"
               />
               {uploading && (
                 <p className="text-sm text-blue-600 mt-1">Uploading...</p>
