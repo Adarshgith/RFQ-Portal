@@ -130,7 +130,7 @@ export default function LoginPage() {
               ))}
             </div>
             <p className="text-xs text-gray-500 mt-2 text-center">
-              Password: <span className="font-medium text-gray-700">password123</span>
+              Password: <span className="font-medium text-gray-700">password@123</span>
             </p>
             <p className="text-xs text-gray-400 mt-1 text-center">
               Click any role to auto-fill email
