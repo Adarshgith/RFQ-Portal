@@ -38,10 +38,10 @@ npm run dev
 
 | Role    | Email                    | Password    |
 |---------|--------------------------|-------------|
-| Admin   | admin@bidveda.com        | password123 |
-| Buyer   | buyer@bidveda.com        | password123 |
-| Vendor1 | vendor1@bidveda.com      | password123 |
-| Vendor2 | vendor2@bidveda.com      | password123 |
+| Admin   | admin@bidveda.com        | password@123 |
+| Buyer   | buyer@bidveda.com        | password@123 |
+| Vendor1 | vendor1@bidveda.com      | password@123 |
+| Vendor2 | vendor2@bidveda.com      | password@123 |
 
 ## Run Tests
 

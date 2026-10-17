@@ -208,7 +208,7 @@ Quote: SUBMITTED → SHORTLISTED → ACCEPTED/REJECTED
 Request:
 {
   "email": "buyer@bidveda.com",
-  "password": "password123"
+  "password": "password@123"
 }
 
 Response 200:
